@@ -72,3 +72,17 @@ header {
     width: 100%;
   }
 }
+
+/* pokud nechci použít media queries, tak lze nastavit i min-width a width:
+
+.rodic {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dite {
+  flex-basis: 100%;
+  min-width: 400px;
+}
+
+*/
